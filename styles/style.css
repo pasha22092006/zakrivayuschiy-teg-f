@@ -203,18 +203,16 @@
 
 
 
-/* Базовые переменные */
-/* Контур по умолчанию */
+
 .contour {
   fill: var(--contour-color);
   transition: fill 0.3s linear;
 }
 
-/* Основное тело и сердцевина по умолчанию */
 .main-body,
 .core {
   fill: none;
-  transition: fill 0.3s;
+  transition: fill 0.3s ease;
 }
 
 /* Анимации при наведении */
@@ -318,7 +316,6 @@
   height: 51px;
   margin: auto 0;
 }
-
 
 .diskette {
   display: flex;
