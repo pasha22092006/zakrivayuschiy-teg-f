@@ -11,7 +11,6 @@
 
   --bg-image: url(../images/background.png);
 
-  /* ограничим макс. 700px */
   --header-margin: 100px;
   --logo__title-font-size: clamp(49px, 43.5px + 1.5vw, 65px);
   --logo__subtitle-font-size: clamp(14px, 2vw, 23px);
