@@ -1,30 +1,17 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
+  /* Шрифты */
   --font-main: 'Inter', sans-serif;
   --font-accent: 'PressStart2P', cursive;
 
-  /* Толщина текста карточки и заголовка */
-  --card-text-weight: 400;
-  --card-title-weight: 700;
-  --card-title-font-size: 18px;
-  --card-text-font-size: 18px;
+  /* Текст */
+  --text-weight-normal: 400;
+  --text-weight-bold: 700;
+  --text-size-default: 18px;
+  --text-size-title: 18px;
 
+  /* Фоны */
   --bg-image: url(../images/background.png);
-
-  --header-margin: 100px;
-  --logo__title-font-size: clamp(49px, 43.5px + 1.5vw, 65px);
-  --logo__subtitle-font-size: clamp(14px, 2vw, 23px);
-  --logo-line-height: 1.2;
-
-
-  --content-width-header: clamp(100%, 90vw, 700px);
-  --content-width-card: clamp(100%, 90vw, 696px);
-
-  --stroke-color: white;
-  --contour-color: black;
-  --animation-fill-color: #FF0000;
-
-  --complex-background:
+  --bg-complex:
     repeating-linear-gradient(to right,
       #d3d3d3,
       #d3d3d3 2px,
@@ -39,5 +26,18 @@
       #e7e7e7 0.01%,
       #1a1a1a 100%);
 
+  /* Отступы и размеры */
+  --header-margin: 100px;
+  --content-width-header: clamp(100%, 90vw, 700px);
+  --content-width-card: clamp(100%, 90vw, 696px);
 
+  /* Логотип */
+  --logo-title-size: clamp(49px, 43.5px + 1.5vw, 65px);
+  --logo-subtitle-size: clamp(14px, 2vw, 23px);
+  --logo-line-height: 1.2;
+
+  /* Цвета */
+  --color-stroke: white;
+  --color-contour: black;
+  --color-animation-fill: #FF0000;
 }
